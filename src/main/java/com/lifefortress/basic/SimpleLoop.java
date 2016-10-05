@@ -7,7 +7,7 @@ import java.util.Scanner;
  * when 1 < i <= 10  <br />
  * then print  N * i : result 
  * 
- * @author WIBO001
+ * @author Sarwo Edi
  *
  */
 public class SimpleLoop { 
