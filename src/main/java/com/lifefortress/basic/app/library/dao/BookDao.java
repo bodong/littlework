@@ -10,4 +10,6 @@ public interface BookDao {
 	List<Book> findAll();
 	
 	Book findById(final Long id);
+
+	boolean update(Book book) throws Exception;
 }

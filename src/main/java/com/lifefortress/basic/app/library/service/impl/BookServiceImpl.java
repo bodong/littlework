@@ -26,4 +26,9 @@ public class BookServiceImpl implements BookService {
 		return bookDao.findById(id);
 	}
 
+	@Override
+	public boolean update(Book book) throws Exception {
+		return bookDao.update(book);
+	}
+
 }

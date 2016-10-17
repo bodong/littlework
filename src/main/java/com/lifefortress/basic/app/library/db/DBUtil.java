@@ -1,8 +1,8 @@
 package com.lifefortress.basic.app.library.db;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.Statement;
 
 public class DBUtil {
 	public static void closeConnection(Connection conn) {
@@ -13,7 +13,7 @@ public class DBUtil {
 		}
 	}
 	
-	public static void closeStatement(Statement statement) {
+	public static void closeStatement(PreparedStatement statement) {
 		try {
 			statement.close();
 		} catch (Exception e) {
